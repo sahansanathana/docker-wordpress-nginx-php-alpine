@@ -16,16 +16,8 @@ _WordPress version currently installed:_ **6.1**
 * Can safely be updated without losing data
 * Fully configurable because wp-config.php uses the environment variables you can pass as an argument to the container
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/trafex/wordpress.svg)](https://hub.docker.com/r/trafex/wordpress/)
-![nginx 1.20](https://img.shields.io/badge/nginx-1.22-brightgreen.svg)
-![php 8.0](https://img.shields.io/badge/php-8.0-brightgreen.svg)
-![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
-
-## [![Trafex Consultancy](https://timdepater.com/logo/mini-logo.png)](https://timdepater.com?mtm_campaign=github)
-I can help you with [Containerization, Kubernetes, Monitoring, Infrastructure as Code and other DevOps challenges](https://timdepater.com/?mtm_campaign=github).
 
 ## Usage
-See [docker-compose.yml](https://github.com/TrafeX/docker-wordpress/blob/master/docker-compose.yml) how to use it in your own environment.
 
     docker-compose up
 
@@ -44,11 +36,3 @@ Or
 This image includes [wp-cli](https://wp-cli.org/) which can be used like this:
 
     docker exec <your container name> /usr/local/bin/wp --path=/usr/src/wordpress <your command>
-
-
-## Inspired by
-
-* https://hub.docker.com/_/wordpress/
-* https://codeable.io/wordpress-developers-intro-to-docker-part-two/
-* https://github.com/TrafeX/docker-php-nginx/
-* https://github.com/etopian/alpine-php-wordpress
